@@ -31,7 +31,7 @@ A production-ready, mobile-first web application for discovering movies. Built w
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/syazwanhosen/movie-web-app.git
     cd movie-discovery-app
     ```
 
@@ -72,7 +72,6 @@ A production-ready, mobile-first web application for discovering movies. Built w
 
 Unit tests are implemented using Jest and React Testing Library.
 
-    ```bash
     npm test
     # or
     yarn test
@@ -80,4 +79,3 @@ Unit tests are implemented using Jest and React Testing Library.
     pnpm test
     # or
     bun run test
-    ```
