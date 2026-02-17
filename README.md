@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Movie Discovery App
 
-## Getting Started
+A production-ready, mobile-first web application for discovering movies. Built with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**. This project demonstrates modern frontend architecture, performance optimization, and clean code practices.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* **Discover Movies**: Browse a vast list of movies with infinite scrolling.
+* **Sorting**: Sort movies by Release Date, Popularity, or Alphabetical order.
+* **Movie Details**: View comprehensive details including synopsis, genres, rating, and duration.
+* **Responsive Design**: Mobile-first UI that adapts seamlessly to tablet and desktop screens.
+* **Performance**: Optimized images using `next/image`, lazy loading, and server-side rendering.
+* **Pull-to-Refresh**: Custom implementation for mobile touch interactions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Framework**: [Next.js 16 (App Router)](https://nextjs.org/)
+* **Library**: [React 19](https://react.dev/)
+* **Language**: [TypeScript](https://www.typescriptlang.org/)
+* **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+* **State Management**: [TanStack Query (React Query)](https://tanstack.com/query/latest)
+* **Testing**: [Jest](https://jestjs.io/) & [React Testing Library](https://testing-library.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏁 Getting Started
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+* Node.js 18.17 or later
+* npm or yarn or pnpm or bun
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository-url>
+    cd movie-discovery-app
+    ```
 
-## Deploy on Vercel
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    # or
+    bun install
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3.  **Environment Setup:**
+    The application uses the TMDB API. While the assignment provided a key directly, in a real-world scenario, this would be in an environment file.
+    
+    ```bash
+    NEXT_PUBLIC_API_KEY = '328c283cd27bd1877d9080ccb1604c91'
+    NEXT_PUBLIC_BASE_URL = 'https://api.themoviedb.org/3'
+    NEXT_PUBLIC_IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500'
+    ```
+    
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    # or
+    bun dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Running Tests
+
+Unit tests are implemented using Jest and React Testing Library.
+
+    ```bash
+    npm test
+    # or
+    yarn test
+    # or
+    pnpm test
+    # or
+    bun run test
+    ```
