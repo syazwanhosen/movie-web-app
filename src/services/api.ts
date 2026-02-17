@@ -1,7 +1,8 @@
 // Types
 import { Movie, MovieDetail, PaginatedResponse, SortOption } from '@/types/movie';
 
-export const getImageUrl = (path: string | null) =>  `${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}${path}`;
+export const getImageUrl = (path: string | null | undefined) =>
+  path ? `${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}${path}` : '/placeholder.svg';
 
 async function fetchClient<T>(endpoint: string, params: Record<string, string> = {}): Promise<T> {
   const query = new URLSearchParams({

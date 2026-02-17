@@ -1,0 +1,6 @@
+<svg width="500" height="750" viewBox="0 0 500 750" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="750" fill="#E5E7EB"/>
+  <path d="M225 350C225 336.193 236.193 325 250 325C263.807 325 275 336.193 275 350C275 363.807 263.807 375 250 375C236.193 375 225 363.807 225 350Z" fill="#9CA3AF"/>
+  <path d="M150 450C150 430.67 165.67 415 185 415H315C334.33 415 350 430.67 350 450V475H150V450Z" fill="#9CA3AF"/>
+  <text x="50%" y="550" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#6B7280">No Image Available</text>
+</svg>
