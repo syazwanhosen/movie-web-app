@@ -1,4 +1,4 @@
-# Movie Discovery App
+# Movie Web App
 
 A production-ready, mobile-first web application for discovering movies. Built with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**. This project demonstrates modern frontend architecture, performance optimization, and clean code practices.
 
@@ -32,7 +32,7 @@ A production-ready, mobile-first web application for discovering movies. Built w
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/syazwanhosen/movie-web-app.git
-    cd movie-discovery-app
+    cd movie-web-app
     ```
 
 2.  **Install dependencies:**
